@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="tennisScore.css">
+	
+	<style>
+	</style>
+	
+	<script> type = "text/javascript" src = "tennisScore.js"</script>
+	
+	
+	</head>
+	
+	
+	<body>
+		<h3>TENNIS SCORE: BEST OF 3 SETS</h3>
+		<!--------------Information Section---------------->
+		<table id = "info" class = "info">
+			<tr>
+				<td id = "empty" class = "empty"></td>
+				<td id = "set1" class = "set1">SET 1</td>
+				<td id = "set2" class = "set2">SET 2</td>
+				<td id = "set3" class = "set3">SET 3</td>
+				<td id = "game" class = "game"></td>
+			</tr>
+		</table>
+		
+		<!-------------Player A Section-------------------->
+		<table id = "player-A-table" class = "player-A-table">
+			<tr>
+				<td id = "A-name" class = "A-name">FEDERER</td>
+				<td id = "A-set-1" class = "A-set-1">-</td>
+				<td id = "A-set-2" class = "A-set-2">-</td>
+				<td id = "A-set-3" class = "A-set-3">-</td>
+				<td id = "A-game-point" class = "A-game-point">0</td>
+			</tr>
+		</table>
+		
+		<!-------------Player B Section-------------------->
+		<table id = "player-B-table" class = "player-B-table">
+			<tr>
+				<td id = "B-name" class = "B-name">NADAL</td>
+				<td id = "B-set-1" class = "B-set-1">-</td>
+				<td id = "B-set-2" class = "B-set-2">-</td>
+				<td id = "B-set-3" class = "B-set-3">-</td>
+				<td id = "B-game-point" class = "B-game-point">0</td>
+			</tr>
+		</table>
+		
+		</br></br></br></br>
+		<h2>To simulate a real game, please click on the player
+			that wins the next point.</h2>
+		
+		<div>
+		<button id = "playerA" class = "playerA" onclick="myFunction()">FEDERER</button>
+		<button id = "playerB" class = "playerB" onclick="myFunction()">NADAL</button>
+		</div>
+		
+		
+
+	</body>
+	
+	
+</html>
